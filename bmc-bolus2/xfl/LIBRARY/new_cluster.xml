@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="new_cluster" itemID="55f70f41-00001447" lastModified="1442254657">
+  <timeline>
+    <DOMTimeline name="new_cluster">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" selected="true" centerPoint3DX="43.65" centerPoint3DY="60.5">
+                  <matrix>
+                    <Matrix a="0.618408203125" b="-0.103378295898438" c="0.105865478515625" d="0.63336181640625" ty="49.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.85" y="30.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="2_insulin" selected="true">
+                  <matrix>
+                    <Matrix tx="25.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48.65" y="62.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

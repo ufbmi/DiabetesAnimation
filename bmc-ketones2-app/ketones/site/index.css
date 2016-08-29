@@ -1,0 +1,137 @@
+/* Open Sans is the title/heading text */
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    src: url('OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+/* Open Sans Reg is the bottom storytxt */
+@font-face {
+    font-family: 'Open Sans Reg';
+    src: url('OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+    overflow: hidden;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    height: 768px;
+    width: 1024px;
+}
+
+
+#content {
+    position: relative;
+    height: 768px;
+    width: 1024px;
+    margin: 0;
+    padding: 0;
+    /* top:-8px; */
+}
+
+#canvas {
+     z-index: 1; 
+     position: absolute;
+    /* left: 0; right: 0; */
+    /* top:0; */
+    /* bottom: 0; */
+    /* left: -8px; */
+    /* right:0; */
+    height: 768px;
+    width: 1024px;
+    padding: 0
+    margin: 0;
+}
+
+#storytxt {
+    z-index: 2;
+    position: absolute;
+    font-family: 'Open Sans Reg', sans-serif;
+    font-weight: 100;
+    font-size: 17px;  /* 14px */
+    color: #999999;
+    width: 774px;
+/*    left: 125px;*/
+/*    top: 635px;*/
+/*    padding-left: 63px;*/
+/*    padding-right: 125px;*/
+}
+
+p.default::selection { background: #a8d1ff; }
+
+p.white::selection { background: #fff; }
+
+/*
+@media (min-width : 100px) {
+    #storytxt {
+        font-size:2px;
+    }
+}
+
+@media (min-width : 320px) {
+    #storytxt{
+        font-size:6px;
+    }
+}
+
+@media (min-width : 400px) {
+    #storytxt{
+        font-size:7px;
+    }
+}
+
+@media (min-width : 460px) {
+    #storytxt{
+        font-size:8px;
+    }
+}
+
+@media (min-width : 500px) {
+    #storytxt{
+        font-size:9px;
+    }
+}
+
+@media (min-width : 520px) {
+    #storytxt{
+        font-size:10px;
+    }
+}
+
+@media (min-width : 630px) {
+    #storytxt{
+        font-size:12px;
+    }
+}
+
+@media (min-width : 768px) {
+    #storytxt{
+        font-size:14px;
+    }
+}
+
+@media (min-width : 850px) {
+    #storytxt{
+        font-size:14px;
+    }
+}
+
+this is iPad landscape:
+18px accomodates 4 lines of text
+17px accomodates 5 lines of text
+
+@media (min-width: 960px) {
+    #storytxt {
+        font-size: 17px;
+    }
+}
+
+iPhone 6 and other "wide" phones
+@media (min-width: 980px) {
+    #storytxt {
+        font-size: 14px;
+
+    }
+}
+*/

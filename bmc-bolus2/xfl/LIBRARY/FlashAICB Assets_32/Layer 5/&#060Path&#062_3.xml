@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_32/Layer 5/&amp;#060Path&amp;#062_3" itemID="55e5db8a-00000122" lastModified="1441127306">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="13" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!16 409[883 301 2456 276!2456 276[3779 254 4610 295!4610 295[5675 347 7551 449!7551 449[9134 526 10318 535!10318 535[13392 558 17323 129"/>
+                    <Edge cubics="!16 409(;1296,249 3710,251 4610,295q16 409Q883 301q2456 276Q3779 254q4610 295);"/>
+                    <Edge cubics="!4610 295(;8868,503 11336,782 17323,129q4610 295Q5675 347q7551 449Q9134 526q10318 535Q13392 558q17323 129);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

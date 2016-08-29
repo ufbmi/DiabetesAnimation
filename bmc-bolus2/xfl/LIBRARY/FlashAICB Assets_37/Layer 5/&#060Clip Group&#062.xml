@@ -1,0 +1,100 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_37/Layer 5/&amp;#060Clip Group&amp;#062" itemID="55f09b15-000005f4" lastModified="1441831701">
+  <timeline>
+    <DOMTimeline name="&amp;#060Clip Group&amp;#062">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!294 335[514 338 2380 282!2380 282[4104 230 4621 255!4621 255[5686 307 7562 409!7562 409[9145 486 10329 495!10329 495[13403 518 17334 89!17334 89|17241 1523!17241 1523[13241 1842 12481 1869!12481 1869[11927 1889 9963 1843!9963 1843[8034
+ 1798 7467 1756!7467 1756[5913 1640 3271 1686!3271 1686[2547 1698 1471 1730!1471 1730[581 1755 414 1755!414 1755[144 1754 192 1045!192 1045[216 690 294 335"/>
+                    <Edge cubics="!294 335(;987,343 3721,211 4621,255q294 335Q514 338q2380 282Q4104 230q4621 255);"/>
+                    <Edge cubics="!4621 255(;8879,463 11347,742 17334,89q4621 255Q5686 307q7562 409Q9145 486q10329 495Q13403 518q17334 89);"/>
+                    <Edge cubics="!17334 89(;17334,89 17241,1523 17241,1523q17334 89 17241 1523);"/>
+                    <Edge cubics="!17241 1523(17241,1523;17241,1523 13241,1842 12481,1869q17241 1523Q13241 1842q12481 1869)12481,1869;"/>
+                    <Edge cubics="!12481 1869(;11721,1896 8198,1810 7467,1756q12481 1869Q11927 1889q9963 1843Q8034 1798q7467 1756);"/>
+                    <Edge cubics="!7467 1756(;4948,1568 1148,1757 414,1755q7467 1756Q5913 1640q3271 1686Q2547 1698q1471 1730Q581 1755q414 1755);"/>
+                    <Edge cubics="!414 1755(;-18,1754 294,335 294,335q414 1755Q144 1754q192 1045Q216 690q294 335);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="1" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets_37/Layer 5/&amp;#060Path&amp;#062_3">
+                  <matrix>
+                    <Matrix tx="0.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="433.45" y="19.6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1484375"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets_37/Layer 5/&amp;#060Path&amp;#062_2">
+                  <matrix>
+                    <Matrix ty="21.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="434" y="21.6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1484375"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets_37/Layer 5/&amp;#060Path&amp;#062_1">
+                  <matrix>
+                    <Matrix tx="0.6" ty="48.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="433.4" y="16.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1484375"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets_37/Layer 5/&amp;#060Path&amp;#062_0">
+                  <matrix>
+                    <Matrix tx="0.35" ty="67.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="433.65" y="-9.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1484375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,526 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bg_glucose" itemID="55f0991c-00000479" lastModified="1456865003" lastUniqueIdentifier="10">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="bg_glucose" currentFrame="280">
+      <layers>
+        <DOMLayer name="actions" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="280" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="280" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+//console.log("bg_gloucose stopping at lastframe");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labels" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="280" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="280" duration="9" name="lastframe" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="260" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="548" ty="360.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="260" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="565.05" centerPoint3DY="375.5">
+                  <matrix>
+                    <Matrix tx="548" ty="360.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="271" duration="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="565.05" centerPoint3DY="375.5">
+                  <matrix>
+                    <Matrix tx="548" ty="360.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="236" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="429" ty="345.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="236" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="446.05" centerPoint3DY="360.5">
+                  <matrix>
+                    <Matrix tx="429" ty="345.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="247" duration="34" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="446.05" centerPoint3DY="360.5">
+                  <matrix>
+                    <Matrix tx="429" ty="345.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="216" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="371"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="216" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="388.05" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix tx="371"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="226" duration="55" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="388.05" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix tx="371"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="192" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="269.5" ty="37"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="192" duration="12" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="286.55" centerPoint3DY="52">
+                  <matrix>
+                    <Matrix tx="269.5" ty="37"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="204" duration="77" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="286.55" centerPoint3DY="52">
+                  <matrix>
+                    <Matrix tx="269.5" ty="37"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="163" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="333.5" ty="102"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="163" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="350.55" centerPoint3DY="117">
+                  <matrix>
+                    <Matrix tx="333.5" ty="102"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="176" duration="105" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="350.55" centerPoint3DY="117">
+                  <matrix>
+                    <Matrix tx="333.5" ty="102"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="134" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="235.5" ty="172.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="134" duration="12" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="252.55" centerPoint3DY="187.95">
+                  <matrix>
+                    <Matrix tx="235.5" ty="172.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="146" duration="135" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="252.55" centerPoint3DY="187.95">
+                  <matrix>
+                    <Matrix tx="235.5" ty="172.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="109" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="339" ty="248.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="109" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="356.05" centerPoint3DY="263.5">
+                  <matrix>
+                    <Matrix tx="339" ty="248.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="120" duration="161" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="356.05" centerPoint3DY="263.5">
+                  <matrix>
+                    <Matrix tx="339" ty="248.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="82" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="312" ty="353.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="82" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="329.05" centerPoint3DY="368.5">
+                  <matrix>
+                    <Matrix tx="312" ty="353.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="93" duration="188" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="329.05" centerPoint3DY="368.5">
+                  <matrix>
+                    <Matrix tx="312" ty="353.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="243.5" ty="306.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="56" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="260.55" centerPoint3DY="321.5">
+                  <matrix>
+                    <Matrix tx="243.5" ty="306.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="69" duration="212" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="260.55" centerPoint3DY="321.5">
+                  <matrix>
+                    <Matrix tx="243.5" ty="306.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="27" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix tx="140.5" ty="359.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="27" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" selected="true" centerPoint3DX="157.55" centerPoint3DY="374.5">
+                  <matrix>
+                    <Matrix tx="140.5" ty="359.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" duration="243" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose" centerPoint3DX="157.55" centerPoint3DY="374.5">
+                  <matrix>
+                    <Matrix tx="140.5" ty="359.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="faded_glucose" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix ty="355.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="269" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="faded_glucose">
+                  <matrix>
+                    <Matrix ty="355.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

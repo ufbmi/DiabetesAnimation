@@ -1,0 +1,1729 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screen7" itemID="55f71881-00001746" lastModified="1456865017" lastUniqueIdentifier="9">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="screen7" currentFrame="87">
+      <layers>
+        <DOMLayer name="actions" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[//console.log("FRAME0 of screen7!");
+this.bg_glucose.gotoAndStop(0);
+this.bg_glucose.hasPlayed=false;
+//console.log("bg_glucose.hasPlayed: " + this.bg_glucose.hasPlayed);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="86" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="87" duration="87" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[//console.log("bg_glucose.hasPlayed: "  + this.bg_glucose.hasPlayed);
+
+if(!this.bg_glucose.hasPlayed){
+	//console.log("bg_gloucose finishing single playthru");
+	this.bg_glucose.hasPlayed=true;
+	this.bg_glucose.gotoAndPlay(0);
+}]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="174" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.bg_glucose.hasPlayed=true;
+this.gotoAndPlay("loopflow");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labels" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="87" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="87" duration="87" name="loopflow" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="174" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: liver glucose" color="#009999" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="87" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="87" duration="35" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="122" duration="52" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#CCCCCC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-3181 4778[-3067 4987 -2586 5022!-2586 5022[-2249 5046 -1543 4982!-1543 4982[-627 4899 -405 4891!-405 4891[198 4868 470 4980!470 4980[927 5168 1146 5394!1146 5394[1443 5700 1470 6195!1470 6195[1497 6697 1363 7070!1363 7070[1276 7312
+ 1050 7636!1050 7636[802 7991 722 8173!722 8173[570 8517 570 8960!570 8960[570 9133 610 9435!610 9435[650 9736 650 9820!650 9820[650 10262 474 10638!474 10638[283 11046 -10 11120"/>
+                    <Edge cubics="!470 4980(;980,5190 1430,5470 1470,6195q470 4980Q927 5168q1146 5394Q1443 5700q1470 6195);"/>
+                    <Edge cubics="!1470 6195(;1549,7691 570,7620 570,8960q1470 6195Q1497 6697q1363 7070Q1276 7312q1050 7636Q802 7991q722 8173Q570 8517q570 8960);"/>
+                    <Edge cubics="!570 8960(;570,9277 650,9622 650,9820q570 8960Q570 9133q610 9435Q650 9736q650 9820);"/>
+                    <Edge cubics="!650 9820(;650,10372 400,11017 -10,11120q650 9820Q650 10262q474 10638Q283 11046q-10 11120);"/>
+                    <Edge cubics="!470 4980(;-365,4637 -2845,5395 -3181,4778q470 4980Q198 4868q-405 4891Q-627 4899q-1543 4982Q-2249 5046q-2586 5022Q-3067 4987q-3181 4778)-3977,3316;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="174" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#CCCCCC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-3181 4778[-3067 4987 -2586 5022!-2586 5022[-2249 5046 -1543 4982!-1543 4982[-627 4899 -405 4891!-405 4891[198 4868 470 4980!470 4980[927 5168 1146 5394!1146 5394[1443 5700 1470 6195!1470 6195[1497 6697 1363 7070!1363 7070[1276 7312
+ 1050 7636!1050 7636[802 7991 722 8173!722 8173[570 8517 570 8960!570 8960[570 9133 610 9435!610 9435[650 9736 650 9820!650 9820[650 10262 474 10638!474 10638[283 11046 -10 11120"/>
+                    <Edge cubics="!470 4980(;980,5190 1430,5470 1470,6195q470 4980Q927 5168q1146 5394Q1443 5700q1470 6195);"/>
+                    <Edge cubics="!1470 6195(;1549,7691 570,7620 570,8960q1470 6195Q1497 6697q1363 7070Q1276 7312q1050 7636Q802 7991q722 8173Q570 8517q570 8960);"/>
+                    <Edge cubics="!570 8960(;570,9277 650,9622 650,9820q570 8960Q570 9133q610 9435Q650 9736q650 9820);"/>
+                    <Edge cubics="!650 9820(;650,10372 400,11017 -10,11120q650 9820Q650 10262q474 10638Q283 11046q-10 11120);"/>
+                    <Edge cubics="!470 4980(;-365,4637 -2845,5395 -3181,4778q470 4980Q198 4868q-405 4891Q-627 4899q-1543 4982Q-2249 5046q-2586 5022Q-3067 4987q-3181 4778)-3977,3316;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="liver glucose" color="#FF4FFF" parentLayerIndex="2" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="87" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="87" duration="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-163.45" centerPoint3DY="232">
+                  <matrix>
+                    <Matrix tx="-186.15" ty="212.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="122" duration="52" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-159.05" centerPoint3DY="238.9">
+                  <matrix>
+                    <Matrix tx="-181.75" ty="219.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="174" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="52.75" centerPoint3DY="265.5">
+                  <matrix>
+                    <Matrix tx="30.05" ty="246"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="liver glucose" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-163.45" centerPoint3DY="232">
+                  <matrix>
+                    <Matrix tx="-186.15" ty="212.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-159.05" centerPoint3DY="238.9">
+                  <matrix>
+                    <Matrix tx="-181.75" ty="219.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-156.45" centerPoint3DY="242.35">
+                  <matrix>
+                    <Matrix tx="-179.15" ty="222.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-152.95" centerPoint3DY="245.1">
+                  <matrix>
+                    <Matrix tx="-175.65" ty="225.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-148.95" centerPoint3DY="247.1">
+                  <matrix>
+                    <Matrix tx="-171.65" ty="227.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-144.8" centerPoint3DY="248.55">
+                  <matrix>
+                    <Matrix tx="-167.5" ty="229.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-140.55" centerPoint3DY="249.6">
+                  <matrix>
+                    <Matrix tx="-163.25" ty="230.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-136.3" centerPoint3DY="250.35">
+                  <matrix>
+                    <Matrix tx="-159" ty="230.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="42" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-132" centerPoint3DY="250.85">
+                  <matrix>
+                    <Matrix tx="-154.7" ty="231.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="43" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-127.7" centerPoint3DY="251.2">
+                  <matrix>
+                    <Matrix tx="-150.4" ty="231.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-123.2" centerPoint3DY="251.4">
+                  <matrix>
+                    <Matrix tx="-145.9" ty="231.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="45" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-118.75" centerPoint3DY="251.45">
+                  <matrix>
+                    <Matrix tx="-141.45" ty="231.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="46" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-114.3" centerPoint3DY="251.4">
+                  <matrix>
+                    <Matrix tx="-137" ty="231.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="47" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-109.85" centerPoint3DY="251.25">
+                  <matrix>
+                    <Matrix tx="-132.55" ty="231.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="48" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-105.5" centerPoint3DY="251.1">
+                  <matrix>
+                    <Matrix tx="-128.2" ty="231.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-101.1" centerPoint3DY="250.9">
+                  <matrix>
+                    <Matrix tx="-123.8" ty="231.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-96.8" centerPoint3DY="250.65">
+                  <matrix>
+                    <Matrix tx="-119.5" ty="231.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="51" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-92.45" centerPoint3DY="250.35">
+                  <matrix>
+                    <Matrix tx="-115.15" ty="230.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-88.15" centerPoint3DY="250.05">
+                  <matrix>
+                    <Matrix tx="-110.85" ty="230.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="53" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-83.85" centerPoint3DY="249.7">
+                  <matrix>
+                    <Matrix tx="-106.55" ty="230.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="54" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-79.6" centerPoint3DY="249.3">
+                  <matrix>
+                    <Matrix tx="-102.3" ty="229.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-75.35" centerPoint3DY="248.95">
+                  <matrix>
+                    <Matrix tx="-98.05" ty="229.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="56" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-71.2" centerPoint3DY="248.55">
+                  <matrix>
+                    <Matrix tx="-93.9" ty="229.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="57" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-67.15" centerPoint3DY="248.2">
+                  <matrix>
+                    <Matrix tx="-89.85" ty="228.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="58" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-63.1" centerPoint3DY="247.85">
+                  <matrix>
+                    <Matrix tx="-85.8" ty="228.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-59" centerPoint3DY="247.5">
+                  <matrix>
+                    <Matrix tx="-81.7" ty="228"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="60" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-54.95" centerPoint3DY="247.15">
+                  <matrix>
+                    <Matrix tx="-77.65" ty="227.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="61" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-50.85" centerPoint3DY="246.8">
+                  <matrix>
+                    <Matrix tx="-73.55" ty="227.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="62" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-46.75" centerPoint3DY="246.45">
+                  <matrix>
+                    <Matrix tx="-69.45" ty="226.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="63" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-42.65" centerPoint3DY="246.1">
+                  <matrix>
+                    <Matrix tx="-65.35" ty="226.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="64" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-38.55" centerPoint3DY="245.75">
+                  <matrix>
+                    <Matrix tx="-61.25" ty="226.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-34.45" centerPoint3DY="245.45">
+                  <matrix>
+                    <Matrix tx="-57.15" ty="225.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="66" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-30.35" centerPoint3DY="245.15">
+                  <matrix>
+                    <Matrix tx="-53.05" ty="225.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-26.2" centerPoint3DY="244.85">
+                  <matrix>
+                    <Matrix tx="-48.9" ty="225.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-22.05" centerPoint3DY="244.65">
+                  <matrix>
+                    <Matrix tx="-44.75" ty="225.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="69" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-17.8" centerPoint3DY="244.45">
+                  <matrix>
+                    <Matrix tx="-40.5" ty="224.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="70" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-13.65" centerPoint3DY="244.4">
+                  <matrix>
+                    <Matrix tx="-36.35" ty="224.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="71" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-9.5" centerPoint3DY="244.35">
+                  <matrix>
+                    <Matrix tx="-32.2" ty="224.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="72" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-5.35" centerPoint3DY="244.4">
+                  <matrix>
+                    <Matrix tx="-28.05" ty="224.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="73" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-1.2" centerPoint3DY="244.55">
+                  <matrix>
+                    <Matrix tx="-23.9" ty="225.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="74" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="2.95" centerPoint3DY="244.85">
+                  <matrix>
+                    <Matrix tx="-19.75" ty="225.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="7.1" centerPoint3DY="245.25">
+                  <matrix>
+                    <Matrix tx="-15.6" ty="225.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="76" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="11.25" centerPoint3DY="245.8">
+                  <matrix>
+                    <Matrix tx="-11.45" ty="226.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="77" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="15.4" centerPoint3DY="246.55">
+                  <matrix>
+                    <Matrix tx="-7.3" ty="227.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="78" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="19.5" centerPoint3DY="247.6">
+                  <matrix>
+                    <Matrix tx="-3.2" ty="228.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="79" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="23.5" centerPoint3DY="249">
+                  <matrix>
+                    <Matrix tx="0.8" ty="229.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="80" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="27.4" centerPoint3DY="250.65">
+                  <matrix>
+                    <Matrix tx="4.7" ty="231.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="81" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="31.2" centerPoint3DY="252.4">
+                  <matrix>
+                    <Matrix tx="8.5" ty="232.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="82" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="34.95" centerPoint3DY="254.2">
+                  <matrix>
+                    <Matrix tx="12.25" ty="234.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="83" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="38.7" centerPoint3DY="256.15">
+                  <matrix>
+                    <Matrix tx="16" ty="236.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="84" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="42.35" centerPoint3DY="258.25">
+                  <matrix>
+                    <Matrix tx="19.65" ty="238.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="85" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="45.9" centerPoint3DY="260.5">
+                  <matrix>
+                    <Matrix tx="23.2" ty="241"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="86" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="49.4" centerPoint3DY="262.9">
+                  <matrix>
+                    <Matrix tx="26.7" ty="243.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="87" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="52.75" centerPoint3DY="265.5">
+                  <matrix>
+                    <Matrix tx="30.05" ty="246"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="88" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="55.9" centerPoint3DY="268.35">
+                  <matrix>
+                    <Matrix tx="33.2" ty="248.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="89" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="58.9" centerPoint3DY="271.4">
+                  <matrix>
+                    <Matrix tx="36.2" ty="251.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="90" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="61.6" centerPoint3DY="274.7">
+                  <matrix>
+                    <Matrix tx="38.9" ty="255.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="91" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="64.05" centerPoint3DY="278.2">
+                  <matrix>
+                    <Matrix tx="41.35" ty="258.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="92" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="66.25" centerPoint3DY="281.95">
+                  <matrix>
+                    <Matrix tx="43.55" ty="262.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="93" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="68.1" centerPoint3DY="285.8">
+                  <matrix>
+                    <Matrix tx="45.4" ty="266.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="94" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="69.7" centerPoint3DY="289.8">
+                  <matrix>
+                    <Matrix tx="47" ty="270.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="95" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="71" centerPoint3DY="293.95">
+                  <matrix>
+                    <Matrix tx="48.3" ty="274.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="96" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="72" centerPoint3DY="298.1">
+                  <matrix>
+                    <Matrix tx="49.3" ty="278.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="97" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="72.75" centerPoint3DY="302.35">
+                  <matrix>
+                    <Matrix tx="50.05" ty="282.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="98" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="73.25" centerPoint3DY="306.6">
+                  <matrix>
+                    <Matrix tx="50.55" ty="287.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="99" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="73.55" centerPoint3DY="310.9">
+                  <matrix>
+                    <Matrix tx="50.85" ty="291.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="73.7" centerPoint3DY="315.1">
+                  <matrix>
+                    <Matrix tx="51" ty="295.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="101" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="73.7" centerPoint3DY="319.35">
+                  <matrix>
+                    <Matrix tx="51" ty="299.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="102" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="73.6" centerPoint3DY="323.55">
+                  <matrix>
+                    <Matrix tx="50.9" ty="304.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="103" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="73.35" centerPoint3DY="327.8">
+                  <matrix>
+                    <Matrix tx="50.65" ty="308.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="104" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="73" centerPoint3DY="332">
+                  <matrix>
+                    <Matrix tx="50.3" ty="312.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="105" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="72.45" centerPoint3DY="336.2">
+                  <matrix>
+                    <Matrix tx="49.75" ty="316.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="106" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="71.7" centerPoint3DY="340.4">
+                  <matrix>
+                    <Matrix tx="49" ty="320.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="107" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="70.8" centerPoint3DY="344.55">
+                  <matrix>
+                    <Matrix tx="48.1" ty="325.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="108" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="69.7" centerPoint3DY="348.7">
+                  <matrix>
+                    <Matrix tx="47" ty="329.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="109" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="68.4" centerPoint3DY="352.75">
+                  <matrix>
+                    <Matrix tx="45.7" ty="333.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="110" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="66.85" centerPoint3DY="356.8">
+                  <matrix>
+                    <Matrix tx="44.15" ty="337.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="111" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="65.1" centerPoint3DY="360.8">
+                  <matrix>
+                    <Matrix tx="42.4" ty="341.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="112" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="63.1" centerPoint3DY="364.7">
+                  <matrix>
+                    <Matrix tx="40.4" ty="345.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="113" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="61" centerPoint3DY="368.5">
+                  <matrix>
+                    <Matrix tx="38.3" ty="349"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="114" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="58.8" centerPoint3DY="372.2">
+                  <matrix>
+                    <Matrix tx="36.1" ty="352.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="115" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="56.5" centerPoint3DY="375.85">
+                  <matrix>
+                    <Matrix tx="33.8" ty="356.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="116" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="54.1" centerPoint3DY="379.45">
+                  <matrix>
+                    <Matrix tx="31.4" ty="359.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="117" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="51.7" centerPoint3DY="382.95">
+                  <matrix>
+                    <Matrix tx="29" ty="363.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="118" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="49.3" centerPoint3DY="386.4">
+                  <matrix>
+                    <Matrix tx="26.6" ty="366.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="119" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="47" centerPoint3DY="389.85">
+                  <matrix>
+                    <Matrix tx="24.3" ty="370.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="120" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="44.75" centerPoint3DY="393.35">
+                  <matrix>
+                    <Matrix tx="22.05" ty="373.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="121" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="42.55" centerPoint3DY="396.85">
+                  <matrix>
+                    <Matrix tx="19.85" ty="377.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="122" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="40.4" centerPoint3DY="400.45">
+                  <matrix>
+                    <Matrix tx="17.7" ty="380.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="123" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="38.35" centerPoint3DY="404.1">
+                  <matrix>
+                    <Matrix tx="15.65" ty="384.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="124" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="36.45" centerPoint3DY="407.9">
+                  <matrix>
+                    <Matrix tx="13.75" ty="388.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="125" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="34.8" centerPoint3DY="411.8">
+                  <matrix>
+                    <Matrix tx="12.1" ty="392.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="126" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="33.3" centerPoint3DY="415.85">
+                  <matrix>
+                    <Matrix tx="10.6" ty="396.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="127" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="32.05" centerPoint3DY="420">
+                  <matrix>
+                    <Matrix tx="9.35" ty="400.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="128" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="31" centerPoint3DY="424.15">
+                  <matrix>
+                    <Matrix tx="8.3" ty="404.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="129" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="30.15" centerPoint3DY="428.4">
+                  <matrix>
+                    <Matrix tx="7.45" ty="408.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="130" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="29.5" centerPoint3DY="432.65">
+                  <matrix>
+                    <Matrix tx="6.8" ty="413.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="131" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="29" centerPoint3DY="436.9">
+                  <matrix>
+                    <Matrix tx="6.3" ty="417.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="132" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="28.7" centerPoint3DY="441.2">
+                  <matrix>
+                    <Matrix tx="6" ty="421.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="133" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="28.55" centerPoint3DY="445.5">
+                  <matrix>
+                    <Matrix tx="5.85" ty="426"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="134" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="28.5" centerPoint3DY="449.8">
+                  <matrix>
+                    <Matrix tx="5.8" ty="430.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="135" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="28.7" centerPoint3DY="454.2">
+                  <matrix>
+                    <Matrix tx="6" ty="434.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="136" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="29.05" centerPoint3DY="458.55">
+                  <matrix>
+                    <Matrix tx="6.35" ty="439.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="137" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="29.45" centerPoint3DY="462.9">
+                  <matrix>
+                    <Matrix tx="6.75" ty="443.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="138" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="29.9" centerPoint3DY="467.2">
+                  <matrix>
+                    <Matrix tx="7.2" ty="447.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="139" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="30.45" centerPoint3DY="471.45">
+                  <matrix>
+                    <Matrix tx="7.75" ty="451.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="140" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="31" centerPoint3DY="475.6">
+                  <matrix>
+                    <Matrix tx="8.3" ty="456.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="141" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="31.5" centerPoint3DY="479.7">
+                  <matrix>
+                    <Matrix tx="8.8" ty="460.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="142" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="31.95" centerPoint3DY="483.75">
+                  <matrix>
+                    <Matrix tx="9.25" ty="464.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="143" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="32.35" centerPoint3DY="487.85">
+                  <matrix>
+                    <Matrix tx="9.65" ty="468.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="144" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="32.5" centerPoint3DY="492.05">
+                  <matrix>
+                    <Matrix tx="9.8" ty="472.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="145" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="32.35" centerPoint3DY="496.3">
+                  <matrix>
+                    <Matrix tx="9.65" ty="476.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="146" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="32.1" centerPoint3DY="500.55">
+                  <matrix>
+                    <Matrix tx="9.4" ty="481.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="147" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="31.6" centerPoint3DY="504.8">
+                  <matrix>
+                    <Matrix tx="8.9" ty="485.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="148" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="30.95" centerPoint3DY="509">
+                  <matrix>
+                    <Matrix tx="8.25" ty="489.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="149" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="30.1" centerPoint3DY="513.2">
+                  <matrix>
+                    <Matrix tx="7.4" ty="493.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="150" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="29.05" centerPoint3DY="517.35">
+                  <matrix>
+                    <Matrix tx="6.35" ty="497.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="151" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="27.85" centerPoint3DY="521.45">
+                  <matrix>
+                    <Matrix tx="5.15" ty="501.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="152" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="26.4" centerPoint3DY="525.45">
+                  <matrix>
+                    <Matrix tx="3.7" ty="505.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="153" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="24.8" centerPoint3DY="529.45">
+                  <matrix>
+                    <Matrix tx="2.1" ty="509.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="154" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="23.05" centerPoint3DY="533.3">
+                  <matrix>
+                    <Matrix tx="0.35" ty="513.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="155" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="21.1" centerPoint3DY="537">
+                  <matrix>
+                    <Matrix tx="-1.6" ty="517.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="156" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="18.95" centerPoint3DY="540.55">
+                  <matrix>
+                    <Matrix tx="-3.75" ty="521.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="157" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="16.5" centerPoint3DY="544">
+                  <matrix>
+                    <Matrix tx="-6.2" ty="524.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="158" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="13.8" centerPoint3DY="547.2">
+                  <matrix>
+                    <Matrix tx="-8.9" ty="527.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="159" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="10.7" centerPoint3DY="550.1">
+                  <matrix>
+                    <Matrix tx="-12" ty="530.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="160" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="7.3" centerPoint3DY="552.6">
+                  <matrix>
+                    <Matrix tx="-15.4" ty="533.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="161" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="3.55" centerPoint3DY="554.6">
+                  <matrix>
+                    <Matrix tx="-19.15" ty="535.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="162" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="new_single_glucose" centerPoint3DX="-1.2" centerPoint3DY="555.4">
+                  <matrix>
+                    <Matrix tx="-23.9" ty="535.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.7" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg glucose" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="175" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bg_glucose" name="bg_glucose">
+                  <matrix>
+                    <Matrix tx="-243.2" ty="105.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="291.05" y="195.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

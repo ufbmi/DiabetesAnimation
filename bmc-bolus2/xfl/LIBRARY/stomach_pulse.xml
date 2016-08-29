@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="stomach_pulse" itemID="55ef3b2b-00000186" lastModified="1441741693" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="stomach_pulse">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_art">
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_art" centerPoint3DX="89.15" centerPoint3DY="158.2">
+                  <matrix>
+                    <Matrix a="0.921478271484375" tx="7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_art">
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

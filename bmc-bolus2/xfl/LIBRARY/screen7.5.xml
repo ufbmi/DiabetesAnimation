@@ -1,0 +1,471 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screen7.5" itemID="55fb0718-000034e6" lastModified="1451878579" lastUniqueIdentifier="16">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="screen7.5">
+      <layers>
+        <DOMLayer name="actions" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="107" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[exportRoot.kara.gotoAndPlay("karaeat");
+playSfx("snd_eating");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="107" duration="49" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("snd_glucoseappear");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="156" duration="45" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("snd_glucoseappear");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="201" duration="47" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("snd_glucoseappear");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="248" duration="23" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("snd_glucoseappear");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="271" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+exportRoot.kara.gotoAndStop("weakened");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="food" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="15" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="food_stomach">
+                  <matrix>
+                    <Matrix tx="58.65" ty="-67.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.35" y="22.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="42" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="food_stomach">
+                  <matrix>
+                    <Matrix tx="58.65" ty="-43.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.35" y="22.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="64" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="food_stomach" centerPoint3DX="68" centerPoint3DY="28.95">
+                  <matrix>
+                    <Matrix tx="58.65" ty="6.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.35" y="22.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="food_stomach">
+                  <matrix>
+                    <Matrix tx="58.65" ty="-67.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.35" y="22.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="81" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="food_stomach">
+                  <matrix>
+                    <Matrix tx="58.65" ty="-43.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.35" y="22.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="103" duration="169" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="food_stomach" centerPoint3DX="68" centerPoint3DY="28.95">
+                  <matrix>
+                    <Matrix tx="58.65" ty="6.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.35" y="22.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fade in" color="#009999" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" duration="14" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_fade">
+                  <matrix>
+                    <Matrix tx="-9.6" ty="-19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="114.5" y="169.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="258" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_fade" centerPoint3DX="104.9" centerPoint3DY="150.45">
+                  <matrix>
+                    <Matrix tx="-9.6" ty="-19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="114.5" y="169.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="screen78_stomachlabel" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="272" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen78_stomachlabel">
+                  <matrix>
+                    <Matrix tx="158" ty="16.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="33.85" y="6.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="stomach" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" duration="71" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" centerPoint3DX="89.15" centerPoint3DY="156.15" loop="loop">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="121" duration="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" centerPoint3DX="89.15" centerPoint3DY="156.15" loop="single frame">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="144" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" centerPoint3DX="89.15" centerPoint3DY="156.15" loop="loop">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="165" duration="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" centerPoint3DX="89.15" centerPoint3DY="156.15" loop="single frame">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="188" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" centerPoint3DX="89.15" centerPoint3DY="156.15" loop="loop">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="209" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" centerPoint3DX="89.15" centerPoint3DY="156.15" loop="single frame">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="234" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" centerPoint3DX="89.15" centerPoint3DY="156.15" loop="loop">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="255" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" centerPoint3DX="89.15" centerPoint3DY="156.15" loop="single frame">
+                  <matrix>
+                    <Matrix ty="-2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" duration="77" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="106" duration="166" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose2" color="#669900" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="107" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="107" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_cluster" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="85.75" ty="88.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.65" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="129" duration="143" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_cluster" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-164.25" ty="-0.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.65" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose2" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="244" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="244" duration="23" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_cluster" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="111.15" ty="96.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.65" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="267" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_cluster" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-137.8" ty="278.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.65" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose2" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="199" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="199" duration="23" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_cluster" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="107.4" ty="99.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.65" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="222" duration="50" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_cluster" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-222.6" ty="197.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.65" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose2" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="156" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="156" duration="20" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_cluster" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="99.95" ty="108.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.65" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="176" duration="96" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_cluster" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-227.9" ty="80.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.65" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg glucose" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="272" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bg_glucose" symbolType="graphic" firstFrame="279" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-475.2" ty="-12.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="291.05" y="195.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

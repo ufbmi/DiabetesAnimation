@@ -1,0 +1,59 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="needle_pumper" itemID="55f6dd4b-00001204" lastModified="1442241867">
+  <timeline>
+    <DOMTimeline name="needle_pumper">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-94.3" ty="-3.5"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#2B2B2B"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2999 181|1886 181!1886 181|1886 358!1886 358|2999 358!2999 358|2999 181"/>
+                        <Edge cubics="!2999 181(;2999,181 1886,181 1886,181p2999 181q1886 181);"/>
+                        <Edge cubics="!1886 181(;1886,181 1886,358 1886,358p1886 181q1886 358);"/>
+                        <Edge cubics="!1886 358(;1886,358 2999,358 2999,358p1886 358q2999 358);"/>
+                        <Edge cubics="!2999 358(2999,358;2999,358 2999,181 2999,181p2999 358q2999 181);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-94.3" ty="-3.5"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#2B2B2B"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!3018 471|2981 471!2981 471[2968 471 2960 463!2960 463[2951 454 2951 442!2951 442|2951 99!2951 99[2951 87 2960 79!2960 79[2968 70 2981 70!2981 70|3018 70!3018 70[3031 70 3039 79!3039 79[3048 87 3048 99!3048 99|3048 442!3048 442[3048 454
+ 3039 463!3039 463[3031 471 3018 471"/>
+                        <Edge cubics="!3018 471(3018,471;3018,471 2981,471 2981,471p3018 471q2981 471);"/>
+                        <Edge cubics="!2981 471(2981,471;2964,471 2951,458 2951,442q2981 471Q2968 471q2960 463Q2951 454q2951 442);"/>
+                        <Edge cubics="!2951 442(2951,442;2951,442 2951,99 2951,99q2951 442 2951 99)2951,99;"/>
+                        <Edge cubics="!2951 99(;2951,83 2964,70 2981,70q2951 99Q2951 87q2960 79Q2968 70q2981 70);"/>
+                        <Edge cubics="!2981 70(;2981,70 3018,70 3018,70q2981 70 3018 70);"/>
+                        <Edge cubics="!3018 70(;3035,70 3048,83 3048,99q3018 70Q3031 70q3039 79Q3048 87q3048 99)3048,99;"/>
+                        <Edge cubics="!3048 99(;3048,99 3048,442 3048,442q3048 99 3048 442);"/>
+                        <Edge cubics="!3048 442(;3048,458 3035,471 3018,471q3048 442Q3048 454q3039 463Q3031 471q3018 471);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

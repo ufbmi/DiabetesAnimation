@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="skin_redbg" itemID="55e5dc25-0000012a" lastModified="1441831958">
+  <timeline>
+    <DOMTimeline name="skin_redbg">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="41.15"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F26669"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!19199 13461|0 13461!0 13461|0 0!0 0|19199 0!19199 0|19199 13461"/>
+                    <Edge cubics="!19199 13461(;19199,13461 0,13461 0,13461p19199 13461 0 13461);"/>
+                    <Edge cubics="!0 13461(;0,13461 0,0 0,0p0 13461 0 0);"/>
+                    <Edge cubics="!0 0(0,0;0,0 19199,0 19199,0q0 0 19199 0);"/>
+                    <Edge cubics="!19199 0(19199,0;19199,0 19199,13461 19199,13461q19199 0 19199 13461);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

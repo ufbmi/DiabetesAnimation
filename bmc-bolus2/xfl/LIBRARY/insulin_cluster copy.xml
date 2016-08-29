@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="insulin_cluster copy" itemID="55fb1957-00004ec6" lastModified="1446218339">
+  <timeline>
+    <DOMTimeline name="insulin_cluster copy">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" selected="true" centerPoint3DX="35.15" centerPoint3DY="47.4">
+                  <matrix>
+                    <Matrix a="0.38250732421875" b="0.0379791259765625" c="-0.038909912109375" d="0.391769409179688" tx="11.1" ty="32.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="insulin_key" selected="true" centerPoint3DX="58.9" centerPoint3DY="34.95">
+                  <matrix>
+                    <Matrix a="0.35540771484375" b="0.146438598632812" c="-0.14996337890625" d="0.364013671875" tx="39.8" ty="13.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="66.15" y="30.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="insulin_key" selected="true" centerPoint3DX="45.55" centerPoint3DY="68.35">
+                  <matrix>
+                    <Matrix a="0.379852294921875" b="-0.0588836669921875" c="0.0603485107421875" d="0.389022827148438" tx="18.35" ty="59.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.65" y="30.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="insulin_key" selected="true" centerPoint3DX="27.9" centerPoint3DY="10.05">
+                  <matrix>
+                    <Matrix a="0.336822509765625" b="-0.185150146484375" c="0.18963623046875" d="0.345001220703125" tx="-0.35" ty="12.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="66.2" y="30.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="insulin_key" centerPoint3DX="88.9" centerPoint3DY="34.95">
+                  <matrix>
+                    <Matrix a="0.233352661132812" b="0.305435180664062" c="-0.312835693359375" d="0.238998413085938" tx="83.75" ty="6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.85" y="30.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="insulin_key" centerPoint3DX="-6.15" centerPoint3DY="46.4">
+                  <matrix>
+                    <Matrix a="0.165390014648438" b="0.347015380859375" c="-0.355377197265625" d="0.169403076171875" tx="-5.15" ty="18.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="66.05" y="30.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="insulin_key" selected="true" centerPoint3DX="74.4" centerPoint3DY="82">
+                  <matrix>
+                    <Matrix a="-0.262603759765625" b="0.28070068359375" c="-0.287506103515625" d="-0.268951416015625" tx="102.1" ty="72.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="66.15" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

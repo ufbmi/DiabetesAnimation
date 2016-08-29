@@ -1,0 +1,1161 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screen7-11" itemID="55f0973a-00000307" lastModified="1456865000" lastUniqueIdentifier="49">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="screen7-11" currentFrame="204" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;502&lt;/guideline&gt;&lt;guideline direction="h"&gt;-82&lt;/guideline&gt;&lt;guideline direction="h"&gt;-138&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="actions" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[//starting with "screen7"
+this.stop();
+
+//unique fix to only play audio here if coming from screen75.
+//normally alraedy playing as part of trans67 on main timeline
+if(exportRoot.screen711.screenCount==75){
+	setTimeout(function(){
+		change_storytext("screen" + exportRoot.screen711.screenCount);
+		read_storytext("screen" + exportRoot.screen711.screenCount);
+	}, 20);	
+}
+
+//console.log("setup screen7 within screen711");
+exportRoot.screen711.screenCount=7;	
+
+//delayed sfx for pancreas trying
+setTimeout(function(){
+	playSfx("snd_pancreastries");
+}, 750);
+
+
+//console.log("screenCount: " + exportRoot.screen711.screenCount);
+]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="17" duration="16" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+
+//console.log("setup screen75 within screen711");
+exportRoot.screen711.screenCount=75;
+//exportRoot.kara.gotoAndStop("weakened");
+exportRoot.screen711.screen75.gotoAndPlay(0);
+
+//console.log("screenCount: " + exportRoot.screen711.screenCount);
+
+setTimeout(function(){
+	change_storytext("screen" + exportRoot.screen711.screenCount);
+	read_storytext("screen" + exportRoot.screen711.screenCount);
+}, 20);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="33" duration="11" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[exportRoot.kara.gotoAndStop("happy");
+change_storytext("screen8");
+read_storytext("screen8");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="44" duration="29" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("snd_lookinside");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="73" duration="61" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("snd_insulininjection");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="134" duration="14" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+
+//console.log("setup screen8 within screen711");
+
+// unique fix to prevent dupe play after "trans78"
+// only allow playback of sound here if coming from screen9
+if(exportRoot.screen711.screenCount == 9){
+	setTimeout(function(){
+		change_storytext("screen" + exportRoot.screen711.screenCount);
+		read_storytext("screen" + exportRoot.screen711.screenCount);
+	}, 20);
+}
+//
+
+exportRoot.screen711.screenCount=8;	
+
+this.screen8.gotoAndPlay(0);
+exportRoot.kara.gotoAndStop("happy");
+
+btn_replay.visible=false;
+//console.log("screenCount: " + exportRoot.screen711.screenCount);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="148" duration="25" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+
+//console.log("setup screen8 within screen711");
+exportRoot.screen711.screenCount=9;	
+
+this.screen9.gotoAndPlay(0);
+exportRoot.kara.gotoAndPlay("karaeat");
+playSfx("snd_eating");
+
+btn_replay.visible=true;
+//console.log("screenCount: " + exportRoot.screen711.screenCount);
+
+setTimeout(function(){
+	change_storytext("screen" + exportRoot.screen711.screenCount);
+	read_storytext("screen" + exportRoot.screen711.screenCount);
+}, 20);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="173" duration="31" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+
+//console.log("setup screen10 within screen711");
+exportRoot.screen711.screenCount=10;	
+
+this.screen10.gotoAndPlay(0);
+exportRoot.kara.gotoAndPlay("karaeat");
+playSfx("snd_eating");
+
+btn_replay.visible=false;
+//console.log("screenCount: " + exportRoot.screen711.screenCount);
+
+setTimeout(function(){
+	change_storytext("screen" + exportRoot.screen711.screenCount);
+	read_storytext("screen" + exportRoot.screen711.screenCount);
+}, 20);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="204" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+
+//console.log("setup screen11 within screen711");
+exportRoot.screen711.screenCount=11;	
+
+this.screen11.gotoAndPlay(0);
+exportRoot.kara.gotoAndStop("happy");
+
+btn_replay.visible=false;
+//console.log("screenCount: " + exportRoot.screen711.screenCount);
+
+setTimeout(function(){
+	change_storytext("screen" + exportRoot.screen711.screenCount);
+	read_storytext("screen" + exportRoot.screen711.screenCount);
+}, 20);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labels" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" name="screen7" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="17" duration="16" name="screen75" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="33" duration="101" name="trans78" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="134" duration="14" name="screen8" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="148" duration="25" name="screen9" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="173" duration="31" name="screen10" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="204" duration="14" name="screen11" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="guide" color="#FF4F4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!-11008 -3280|10651 -3280!10651 -3280|10651 -1640!10651 -1640|-11008 -1640!-11008 -1640|-11008 -3280"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!-11008 10039|10651 10039!10651 10039|10651 14039!10651 14039|-11008 14039!-11008 14039|-11008 10039"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="201" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!-11008 -3280|10651 -3280!10651 -3280|10651 -1640!10651 -1640|-11008 -1640!-11008 -1640|-11008 -3280"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!-11008 10039|10651 10039!10651 10039|10651 14039!10651 14039|-11008 14039!-11008 14039|-11008 10039"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="guide" color="#4F80FF" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-538.45" ty="-115.55"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FEFBCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!4340 6660[4340 5209 4488 4209!4488 4209[4665 3019 5078 2232!5078 2232[5537 1356 6323 904!6323 904[7172 417 8440 401!8440 401|8440 0!8440 0|0 0!0 0|0 13500!0 13500|8700 13498!8700 13498[6285 13468 5208 11377!5208 11377[4340 9694 4340
+ 6660"/>
+                        <Edge cubics="!4340 6660(;4340,3153 4940,445 8440,401q4340 6660Q4340 5209q4488 4209Q4665 3019q5078 2232Q5537 1356q6323 904Q7172 417q8440 401);"/>
+                        <Edge cubics="!8440 401(;8440,401 8440,0 8440,0q8440 401 8440 0);"/>
+                        <Edge cubics="!8440 0(;8440,0 0,0 0,0q8440 0 0 0);"/>
+                        <Edge cubics="!0 0(;0,0 0,13500 0,13500q0 0 0 13500);"/>
+                        <Edge cubics="!8700 13498(8700,13498;5200,13454 4340,10166 4340,6660q8700 13498Q6285 13468q5208 11377Q4340 9694q4340 6660)4340,6660;"/>
+                        <Edge cubics="!0 13500(;0,13500 8700,13498 8700,13498q0 13500 8700 13498)8700,13498;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="201" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-538.45" ty="-115.55"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FEFBCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!4340 6660[4340 5209 4488 4209!4488 4209[4665 3019 5078 2232!5078 2232[5537 1356 6323 904!6323 904[7172 417 8440 401!8440 401|8440 0!8440 0|0 0!0 0|0 13500!0 13500|8700 13498!8700 13498[6285 13468 5208 11377!5208 11377[4340 9694 4340
+ 6660"/>
+                        <Edge cubics="!4340 6660(;4340,3153 4940,445 8440,401q4340 6660Q4340 5209q4488 4209Q4665 3019q5078 2232Q5537 1356q6323 904Q7172 417q8440 401);"/>
+                        <Edge cubics="!8440 401(;8440,401 8440,0 8440,0q8440 401 8440 0);"/>
+                        <Edge cubics="!8440 0(;8440,0 0,0 0,0q8440 0 0 0);"/>
+                        <Edge cubics="!0 0(;0,0 0,13500 0,13500q0 0 0 13500);"/>
+                        <Edge cubics="!8700 13498(8700,13498;5200,13454 4340,10166 4340,6660q8700 13498Q6285 13468q5208 11377Q4340 9694q4340 6660)4340,6660;"/>
+                        <Edge cubics="!0 13500(;0,13500 8700,13498 8700,13498q0 13500 8700 13498)8700,13498;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txt_labels" color="#9933CC" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="labels_woo" centerPoint3DX="93.1" centerPoint3DY="324.4">
+                  <matrix>
+                    <Matrix tx="-289.3" ty="158"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="382.4" y="166.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="16" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="labels_woo" centerPoint3DX="93.1" centerPoint3DY="324.4">
+                  <matrix>
+                    <Matrix tx="-289.3" ty="158"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="382.4" y="166.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="labels_woo" centerPoint3DX="93.1" centerPoint3DY="324.4">
+                  <matrix>
+                    <Matrix tx="-289.3" ty="158"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="382.4" y="166.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="labels_woo" centerPoint3DX="93.1" centerPoint3DY="324.4">
+                  <matrix>
+                    <Matrix tx="-289.3" ty="158"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="382.4" y="166.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" duration="163" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="labels_woo" centerPoint3DX="93.1" centerPoint3DY="333.4">
+                  <matrix>
+                    <Matrix tx="-289.3" ty="167"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="382.4" y="166.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="liver" color="#669900" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="liver">
+                  <matrix>
+                    <Matrix tx="-265.6" ty="174.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="102.75" y="91.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="27" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="liver" centerPoint3DX="-162.85" centerPoint3DY="266.35">
+                  <matrix>
+                    <Matrix tx="-265.6" ty="174.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="102.75" y="91.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="liver" centerPoint3DX="-162.85" centerPoint3DY="266.35">
+                  <matrix>
+                    <Matrix tx="-265.6" ty="174.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="102.75" y="91.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" duration="163" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="liver" centerPoint3DX="-162.85" centerPoint3DY="276.35">
+                  <matrix>
+                    <Matrix tx="-265.6" ty="184.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="102.75" y="91.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="stomach_label_11" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="33" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="33" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen78_stomachlabel">
+                  <matrix>
+                    <Matrix tx="392" ty="136"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="33.85" y="6.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen78_stomachlabel">
+                  <matrix>
+                    <Matrix tx="392" ty="136"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.9" y="12.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" duration="149" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen78_stomachlabel">
+                  <matrix>
+                    <Matrix tx="392.05" ty="156.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.9" y="12.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="204" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen78_stomachlabel">
+                  <matrix>
+                    <Matrix tx="392.05" ty="156.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.9" y="12.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="stomach_11" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="33" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="33" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="234" ty="116.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="234" ty="116.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" duration="93" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="234" ty="135.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="148" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="204" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_pulse" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="234" ty="135.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="158.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="screen 11" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="204" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="204" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_glucose_flow copy" name="screen11">
+                  <matrix>
+                    <Matrix tx="0.15" ty="0.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.45" y="120.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="screen 8" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="134" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="134" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_glucose_flow copy" name="screen8">
+                  <matrix>
+                    <Matrix tx="-8.75" ty="2.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.45" y="120.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="148" duration="70" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="screen 10" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="173" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="173" duration="31" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen10" name="screen10">
+                  <matrix>
+                    <Matrix tx="234.15" ty="138"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="157.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="204" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="screen75" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="17" duration="16" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen7.5" name="screen75">
+                  <matrix>
+                    <Matrix tx="234.15" ty="119.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="157.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" duration="100" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="screen 9" color="#669900" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="148" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="148" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen9" name="screen9">
+                  <matrix>
+                    <Matrix tx="234.15" ty="138"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89.15" y="157.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="173" duration="45" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="long acting insulin" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="33" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="33" duration="27" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="60" duration="15" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="long_acting_insulin" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.71044921875" b="-0.7037353515625" c="0.7037353515625" d="0.71044921875" tx="58.1" ty="-101.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.2" y="13.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="long_acting_insulin" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.71044921875" b="-0.7037353515625" c="0.7037353515625" d="0.71044921875" tx="-76.5" ty="29.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.2" y="13.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="78" duration="29" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="long_acting_insulin" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix a="0.71044921875" b="-0.7037353515625" c="0.7037353515625" d="0.71044921875" tx="-76.5" ty="29.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.2" y="13.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="107" duration="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="long_acting_insulin" symbolType="graphic" firstFrame="9" centerPoint3DX="-12.9" centerPoint3DY="-15" loop="play once">
+                  <matrix>
+                    <Matrix a="0.71044921875" b="-0.7037353515625" c="0.7037353515625" d="0.71044921875" tx="-76.5" ty="29.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.2" y="13.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="116" duration="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="long_acting_insulin" symbolType="graphic" firstFrame="9" centerPoint3DX="5.9" centerPoint3DY="-33.8" loop="play once">
+                  <matrix>
+                    <Matrix a="0.71044921875" b="-0.7037353515625" c="0.7037353515625" d="0.71044921875" tx="-57.7" ty="10.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.2" y="13.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="125" duration="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="long_acting_insulin" symbolType="graphic" firstFrame="9" centerPoint3DX="52.35" centerPoint3DY="-20" loop="play once">
+                  <matrix>
+                    <Matrix a="0.999984741210938" b="0.003936767578125" c="-0.0039215087890625" d="0.999984741210938" tx="-23.95" ty="-33.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.2" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="148" duration="70" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin crystals">
+                  <matrix>
+                    <Matrix a="0.12091064453125" d="0.12091064453125" tx="-79.8" ty="35.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.7" y="31.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="97" duration="121" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin crystals">
+                  <matrix>
+                    <Matrix tx="-179.75" ty="32.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.95" y="31.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="33" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="33" duration="26" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="skin_divider">
+                  <matrix>
+                    <Matrix tx="-329.95" ty="-238.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="426.75" y="54.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="159" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="skin_divider">
+                  <matrix>
+                    <Matrix tx="-329.95" ty="8.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="426.75" y="54.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="33" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="33" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_fade">
+                  <matrix>
+                    <Matrix tx="15.85" ty="-279.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="114.5" y="169.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_fade">
+                  <matrix>
+                    <Matrix tx="26" ty="-279.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="114.5" y="169.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" duration="177" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pancreas_label" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="41" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pancreas_label">
+                  <matrix>
+                    <Matrix tx="193.45" ty="-31.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.3" y="5.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" duration="177" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pancreas" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="damaged_pancreas" name="pancreas">
+                  <matrix>
+                    <Matrix tx="-24.2" ty="-48.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="132.2" y="53.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="16" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="damaged_pancreas" name="pancreas" centerPoint3DX="106" centerPoint3DY="4.05">
+                  <matrix>
+                    <Matrix tx="-24.2" ty="-48.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="132.2" y="53.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!4005 -604[3983 -622 3942 -622!3942 -622|3869 -622!3869 -622|3869 -394!3869 -394|3917 -394!3917 -394|3917 -475!3917 -475|3938 -475!3938 -475[3980 -475 4004 -495!4004 -495[4027 -514 4027 -551!4027 -551[4027 -587 4005 -604!3917 -583|3939
+ -583!3939 -583[3959 -583 3968 -575!3968 -575[3978 -566 3978 -549!3978 -549[3978 -533 3967 -524!3967 -524[3955 -515 3933 -515!3933 -515|3917 -515!3917 -515|3917 -583!4569 -394[4581 -396 4592 -404!4592 -404|4592 -445!4592 -445[4580 -437
+ 4569 -433!4569 -433[4557 -429 4543 -429!4543 -429[4506 -429 4506 -481!4506 -481[4506 -534 4543 -534!4543 -534[4553 -534 4563 -531!4563 -531|4583 -523!4583 -523|4598 -560!4598 -560[4573 -572 4543 -572!4543 -572[4502 -572 4480 -548!4480
+ -548[4457 -525 4457 -480!4457 -480[4457 -391 4539 -391!4539 -391[4557 -391 4569 -394!4700 -563[4686 -554 4677 -539!4677 -539|4675 -539!4675 -539|4668 -569!4668 -569|4632 -569!4632 -569|4632 -394!4632 -394|4680 -394!4680 -394|4680 -483
+!4680 -483[4680 -504 4692 -516!4692 -516[4705 -527 4728 -527!4728 -527|4742 -526!4742 -526|4746 -571!4746 -571|4730 -572!4730 -572[4713 -572 4700 -563!4891 -394[4905 -397 4917 -403!4917 -403|4917 -440!4917 -440[4902 -433 4888 -430!4888
+ -430[4874 -426 4858 -426!4858 -426[4838 -426 4827 -438!4827 -438[4815 -449 4815 -469!4815 -469|4927 -469!4927 -469|4927 -493!4927 -493[4927 -530 4907 -551!4907 -551[4886 -572 4849 -572!4849 -572[4810 -572 4788 -548!4788 -548[4766 -524
+ 4766 -480!4766 -480[4766 -437 4790 -414!4790 -414[4814 -391 4856 -391!4856 -391[4877 -391 4891 -394!4873 -528[4882 -519 4883 -501!4883 -501|4816 -501!4816 -501[4817 -519 4826 -528!4826 -528[4834 -538 4849 -538!4849 -538[4865 -538 4873
+ -528!4209 -394|4209 -510!4209 -510[4209 -542 4190 -557!4190 -557[4172 -572 4137 -572!4137 -572[4100 -572 4070 -556!4070 -556|4085 -524!4085 -524[4114 -537 4135 -537!4135 -537[4162 -537 4162 -510!4162 -510|4162 -503!4162 -503|4132 -502
+!4132 -502[4092 -500 4073 -487!4073 -487[4053 -474 4053 -446!4053 -446[4053 -420 4068 -405!4068 -405[4082 -391 4108 -391!4108 -391[4128 -391 4141 -397!4141 -397[4153 -403 4165 -418!4165 -418|4167 -418!4167 -418|4176 -394!4176 -394|4209
+ -394!4419 -508[4419 -539 4403 -555!4403 -555[4388 -572 4357 -572!4357 -572[4339 -572 4326 -565!4326 -565[4311 -559 4303 -546!4303 -546|4301 -546!4301 -546|4294 -569!4294 -569|4258 -569!4258 -569|4258 -394!4258 -394|4306 -394!4306 -394
+|4306 -476!4306 -476[4306 -507 4315 -520!4315 -520[4323 -534 4343 -534!4343 -534[4358 -534 4365 -524!4365 -524[4372 -515 4372 -496!4372 -496|4372 -394!4372 -394|4419 -394!4419 -394|4419 -508!4162 -461[4162 -445 4152 -435!4152 -435[4142
+ -426 4125 -426!4125 -426[4102 -426 4102 -446!4102 -446[4102 -460 4113 -467!4113 -467[4123 -474 4143 -474!4143 -474|4162 -475!4162 -475|4162 -461!5276 -468[5272 -478 5262 -485!5262 -485[5253 -492 5232 -500!5232 -500[5209 -509 5203 -514
+!5203 -514[5196 -519 5196 -525!5196 -525[5196 -537 5217 -537!5217 -537[5229 -537 5240 -533!5240 -533|5265 -524!5265 -524|5279 -558!5279 -558[5249 -572 5218 -572!5218 -572[5184 -572 5167 -559!5167 -559[5148 -546 5148 -523!5148 -523[5148
+ -510 5153 -500!5153 -500[5157 -491 5167 -484!5167 -484[5176 -477 5196 -468!5196 -468|5219 -458!5219 -458[5227 -453 5230 -450!5230 -450[5234 -446 5234 -441!5234 -441[5234 -426 5208 -426!5208 -426[5195 -426 5179 -430!5179 -430[5162 -434
+ 5149 -440!5149 -440|5149 -401!5149 -401[5160 -396 5174 -393!5174 -393[5187 -391 5206 -391!5206 -391[5244 -391 5262 -405!5262 -405[5281 -419 5281 -446!5281 -446[5281 -459 5276 -468!5110 -394|5110 -510!5110 -510[5110 -542 5091 -557!5091
+ -557[5073 -572 5038 -572!5038 -572[5001 -572 4971 -556!4971 -556|4986 -524!4986 -524[5015 -537 5036 -537!5036 -537[5063 -537 5063 -510!5063 -510|5063 -503!5063 -503|5033 -502!5033 -502[4993 -500 4974 -487!4974 -487[4954 -474 4954 -446
+!4954 -446[4954 -420 4969 -405!4969 -405[4983 -391 5009 -391!5009 -391[5029 -391 5042 -397!5042 -397[5054 -403 5066 -418!5066 -418|5068 -418!5068 -418|5077 -394!5077 -394|5110 -394!5063 -461[5063 -445 5053 -435!5053 -435[5043 -426 5026
+ -426!5026 -426[5003 -426 5003 -446!5003 -446[5003 -460 5014 -467!5014 -467[5024 -474 5044 -474!5044 -474|5063 -475!5063 -475|5063 -461"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="damaged_pancreas" name="pancreas" centerPoint3DX="106" centerPoint3DY="4.05">
+                  <matrix>
+                    <Matrix tx="-24.2" ty="-48.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="132.2" y="53.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!4005 -604[3983 -622 3942 -622!3942 -622|3869 -622!3869 -622|3869 -394!3869 -394|3917 -394!3917 -394|3917 -475!3917 -475|3938 -475!3938 -475[3980 -475 4004 -495!4004 -495[4027 -514 4027 -551!4027 -551[4027 -587 4005 -604!3917 -583|3939
+ -583!3939 -583[3959 -583 3968 -575!3968 -575[3978 -566 3978 -549!3978 -549[3978 -533 3967 -524!3967 -524[3955 -515 3933 -515!3933 -515|3917 -515!3917 -515|3917 -583!4569 -394[4581 -396 4592 -404!4592 -404|4592 -445!4592 -445[4580 -437
+ 4569 -433!4569 -433[4557 -429 4543 -429!4543 -429[4506 -429 4506 -481!4506 -481[4506 -534 4543 -534!4543 -534[4553 -534 4563 -531!4563 -531|4583 -523!4583 -523|4598 -560!4598 -560[4573 -572 4543 -572!4543 -572[4502 -572 4480 -548!4480
+ -548[4457 -525 4457 -480!4457 -480[4457 -391 4539 -391!4539 -391[4557 -391 4569 -394!4700 -563[4686 -554 4677 -539!4677 -539|4675 -539!4675 -539|4668 -569!4668 -569|4632 -569!4632 -569|4632 -394!4632 -394|4680 -394!4680 -394|4680 -483
+!4680 -483[4680 -504 4692 -516!4692 -516[4705 -527 4728 -527!4728 -527|4742 -526!4742 -526|4746 -571!4746 -571|4730 -572!4730 -572[4713 -572 4700 -563!4891 -394[4905 -397 4917 -403!4917 -403|4917 -440!4917 -440[4902 -433 4888 -430!4888
+ -430[4874 -426 4858 -426!4858 -426[4838 -426 4827 -438!4827 -438[4815 -449 4815 -469!4815 -469|4927 -469!4927 -469|4927 -493!4927 -493[4927 -530 4907 -551!4907 -551[4886 -572 4849 -572!4849 -572[4810 -572 4788 -548!4788 -548[4766 -524
+ 4766 -480!4766 -480[4766 -437 4790 -414!4790 -414[4814 -391 4856 -391!4856 -391[4877 -391 4891 -394!4873 -528[4882 -519 4883 -501!4883 -501|4816 -501!4816 -501[4817 -519 4826 -528!4826 -528[4834 -538 4849 -538!4849 -538[4865 -538 4873
+ -528!4209 -394|4209 -510!4209 -510[4209 -542 4190 -557!4190 -557[4172 -572 4137 -572!4137 -572[4100 -572 4070 -556!4070 -556|4085 -524!4085 -524[4114 -537 4135 -537!4135 -537[4162 -537 4162 -510!4162 -510|4162 -503!4162 -503|4132 -502
+!4132 -502[4092 -500 4073 -487!4073 -487[4053 -474 4053 -446!4053 -446[4053 -420 4068 -405!4068 -405[4082 -391 4108 -391!4108 -391[4128 -391 4141 -397!4141 -397[4153 -403 4165 -418!4165 -418|4167 -418!4167 -418|4176 -394!4176 -394|4209
+ -394!4419 -508[4419 -539 4403 -555!4403 -555[4388 -572 4357 -572!4357 -572[4339 -572 4326 -565!4326 -565[4311 -559 4303 -546!4303 -546|4301 -546!4301 -546|4294 -569!4294 -569|4258 -569!4258 -569|4258 -394!4258 -394|4306 -394!4306 -394
+|4306 -476!4306 -476[4306 -507 4315 -520!4315 -520[4323 -534 4343 -534!4343 -534[4358 -534 4365 -524!4365 -524[4372 -515 4372 -496!4372 -496|4372 -394!4372 -394|4419 -394!4419 -394|4419 -508!4162 -461[4162 -445 4152 -435!4152 -435[4142
+ -426 4125 -426!4125 -426[4102 -426 4102 -446!4102 -446[4102 -460 4113 -467!4113 -467[4123 -474 4143 -474!4143 -474|4162 -475!4162 -475|4162 -461!5276 -468[5272 -478 5262 -485!5262 -485[5253 -492 5232 -500!5232 -500[5209 -509 5203 -514
+!5203 -514[5196 -519 5196 -525!5196 -525[5196 -537 5217 -537!5217 -537[5229 -537 5240 -533!5240 -533|5265 -524!5265 -524|5279 -558!5279 -558[5249 -572 5218 -572!5218 -572[5184 -572 5167 -559!5167 -559[5148 -546 5148 -523!5148 -523[5148
+ -510 5153 -500!5153 -500[5157 -491 5167 -484!5167 -484[5176 -477 5196 -468!5196 -468|5219 -458!5219 -458[5227 -453 5230 -450!5230 -450[5234 -446 5234 -441!5234 -441[5234 -426 5208 -426!5208 -426[5195 -426 5179 -430!5179 -430[5162 -434
+ 5149 -440!5149 -440|5149 -401!5149 -401[5160 -396 5174 -393!5174 -393[5187 -391 5206 -391!5206 -391[5244 -391 5262 -405!5262 -405[5281 -419 5281 -446!5281 -446[5281 -459 5276 -468!5110 -394|5110 -510!5110 -510[5110 -542 5091 -557!5091
+ -557[5073 -572 5038 -572!5038 -572[5001 -572 4971 -556!4971 -556|4986 -524!4986 -524[5015 -537 5036 -537!5036 -537[5063 -537 5063 -510!5063 -510|5063 -503!5063 -503|5033 -502!5033 -502[4993 -500 4974 -487!4974 -487[4954 -474 4954 -446
+!4954 -446[4954 -420 4969 -405!4969 -405[4983 -391 5009 -391!5009 -391[5029 -391 5042 -397!5042 -397[5054 -403 5066 -418!5066 -418|5068 -418!5068 -418|5077 -394!5077 -394|5110 -394!5063 -461[5063 -445 5053 -435!5053 -435[5043 -426 5026
+ -426!5026 -426[5003 -426 5003 -446!5003 -446[5003 -460 5014 -467!5014 -467[5024 -474 5044 -474!5044 -474|5063 -475!5063 -475|5063 -461"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="damaged_pancreas" name="pancreas" centerPoint3DX="106" centerPoint3DY="4.05">
+                  <matrix>
+                    <Matrix tx="-24.2" ty="-48.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="132.2" y="53.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" duration="177" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="screen7" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen7" name="screen7">
+                  <matrix>
+                    <Matrix tx="0.15" ty="0.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.45" y="120.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="33" duration="185" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="blood" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="blood_system">
+                  <matrix>
+                    <Matrix tx="-322.7" ty="73.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="484.5" y="263.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="27" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="blood_system" centerPoint3DX="161.8" centerPoint3DY="317.95">
+                  <matrix>
+                    <Matrix tx="-322.7" ty="73.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="484.5" y="263.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="blood_system" centerPoint3DX="161.8" centerPoint3DY="317.95">
+                  <matrix>
+                    <Matrix tx="-322.7" ty="73.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="484.5" y="263.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" duration="163" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="blood_system" centerPoint3DX="161.8" centerPoint3DY="337.95">
+                  <matrix>
+                    <Matrix tx="-322.7" ty="93.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="484.5" y="263.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="skin/red bg" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="skin_redbg">
+                  <matrix>
+                    <Matrix tx="-421.15" ty="-240.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="479.95" y="357.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="16" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="skin_redbg" centerPoint3DX="58.8" centerPoint3DY="136.95">
+                  <matrix>
+                    <Matrix tx="-421.15" ty="-240.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="479.95" y="357.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" duration="26" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="skin_redbg" centerPoint3DX="58.8" centerPoint3DY="116.4">
+                  <matrix>
+                    <Matrix tx="-421.15" ty="-240.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="479.95" y="357.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="159" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="skin_redbg" centerPoint3DX="58.8" centerPoint3DY="347.9">
+                  <matrix>
+                    <Matrix tx="-421.15" ty="-9.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="479.95" y="357.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="blue bg" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-471.15" ty="-115.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#C2FFF6"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!19199 9341|0 9341!0 9341|0 0!0 0|19199 0!19199 0|19199 9341"/>
+                    <Edge cubics="!19199 9341(;19199,9341 0,9341 0,9341p19199 9341q0 9341);"/>
+                    <Edge cubics="!0 9341(;0,9341 0,0 0,0p0 9341q0 0);"/>
+                    <Edge cubics="!0 0(;0,0 19199,0 19199,0q0 0 19199 0);"/>
+                    <Edge cubics="!19199 0(;19199,0 19199,9341 19199,9341q19199 0 19199 9341);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="201" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-471.15" ty="-115.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#C2FFF6"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!19199 9341|0 9341!0 9341|0 0!0 0|19199 0!19199 0|19199 9341"/>
+                    <Edge cubics="!19199 9341(;19199,9341 0,9341 0,9341p19199 9341q0 9341);"/>
+                    <Edge cubics="!0 9341(;0,9341 0,0 0,0p0 9341q0 0);"/>
+                    <Edge cubics="!0 0(;0,0 19199,0 19199,0q0 0 19199 0);"/>
+                    <Edge cubics="!19199 0(;19199,0 19199,9341 19199,9341q19199 0 19199 9341);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

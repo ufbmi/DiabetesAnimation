@@ -1,0 +1,47 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 9" itemID="55e6fbe0-0000046a" symbolType="graphic" lastModified="1441201120">
+  <timeline>
+    <DOMTimeline name="Tween 9">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="0.6339111328125" d="0.6339111328125" tx="-55.85" ty="-72.85"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#886B4D"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2042 3936[2004 3820 1978 3696!1978 3696[1927 3448 1991 3407!1991 3407[2028 3384 1945 3359!1945 3359[1868 3336 1750 3328!1750 3328[1623 3319 1550 3336!1550 3336[1463 3356 1490 3407!1490 3407[1538 3499 1490 3729!1490 3729[1467 3844 1433
+ 3941!1433 3941[1444 4110 1499 4205!1499 4205[1574 4334 1733 4334!1733 4334[1893 4334 1970 4209!1970 4209[2028 4113 2042 3936"/>
+                        <Edge cubics="!2042 3936(;2042,3936 1888,3472 1991,3407q2042 3936Q2004 3820q1978 3696Q1927 3448q1991 3407);"/>
+                        <Edge cubics="!1991 3407(;2094,3342 1412,3260 1490,3407q1991 3407Q2028 3384q1945 3359Q1868 3336q1750 3328Q1623 3319q1550 3336Q1463 3356q1490 3407);"/>
+                        <Edge cubics="!1490 3407(;1567,3554 1433,3941 1433,3941q1490 3407Q1538 3499q1490 3729Q1467 3844q1433 3941);"/>
+                        <Edge cubics="!1433 3941(;1445,4120 1497,4334 1733,4334q1433 3941Q1444 4110q1499 4205Q1574 4334q1733 4334);"/>
+                        <Edge cubics="!1733 4334(;1968,4334 2027,4132 2042,3936q1733 4334Q1893 4334q1970 4209Q2028 4113q2042 3936);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="zach_head_eat" selected="true" symbolType="graphic" firstFrame="4" centerPoint3DY="-6.2" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-56.75" ty="-64.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56.75" y="58.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
